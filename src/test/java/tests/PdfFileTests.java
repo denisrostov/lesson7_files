@@ -17,7 +17,6 @@ public class PdfFileTests {
 
         PDF pdf = getPdf(pdfFilePath);
         assertThat(pdf, PDF.containsText(expectedData));
-//        tttt
     }
 
 }
