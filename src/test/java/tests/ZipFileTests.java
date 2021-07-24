@@ -1,9 +1,7 @@
 package tests;
 
-import net.lingala.zip4j.core.ZipFile;
 import net.lingala.zip4j.exception.ZipException;
 import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -26,7 +24,6 @@ public class ZipFileTests {
 
         assertThat(actualData, containsString(expectedData));
     }
-
 
 
 }

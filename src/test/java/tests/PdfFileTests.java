@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static utils.Files.*;
 import static utils.Files.getPdf;
 
 public class PdfFileTests {
