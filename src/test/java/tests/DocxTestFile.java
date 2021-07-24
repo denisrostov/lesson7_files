@@ -15,7 +15,8 @@ public class DocxTestFile {
         String expectedData = "Aviakassa";
         String actualData = readDocx(path).getText();
         assertThat(actualData, containsString(expectedData));
-    } @Test
+    }
+    @Test
     void checkDocFile() throws IOException {
         String path = "./src/test/resources/files/test.doc";
         String expectedData = "Aviakassa";
