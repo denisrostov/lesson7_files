@@ -29,7 +29,7 @@ public  class Files {
     public static PDF getPdf(String path) throws IOException {
         return new PDF(getFile(path));
     }
-    public static XLS getXls(String path) throws IOException {
+    public static XLS getXls(String path)  {
         return new XLS(getFile(path));
     }
     public static XWPFWordExtractor readDocx (String path) throws IOException {
